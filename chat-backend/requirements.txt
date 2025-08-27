@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+llama-index
+sentence-transformers
+langchain
+huggingface-hub
+python-multipart
+PyPDF2

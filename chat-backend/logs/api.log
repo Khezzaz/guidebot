@@ -1,0 +1,823 @@
+2025-08-06 21:27:03,624 - app.api.routes.query - INFO - Requête RAG: 'comment imprimer un devis ?...' par anonymous
+2025-08-06 21:27:03,881 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 21:42:35,635 - app.api.routes.query - INFO - Requête RAG: 'comment imprimer un devis ?...' par anonymous
+2025-08-06 21:42:35,699 - app.persistence.qdrant.vector_repository - INFO - Starting semantic_search_with_expansion(top_k=3, filter=None)
+2025-08-06 21:42:35,709 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 21:42:35,713 - app.persistence.qdrant.vector_repository - WARNING - Skipping expansion for doc id=132664da-7618-5f20-9d4a-88e1f849ac8e due to missing metadata
+2025-08-06 21:42:35,715 - app.persistence.qdrant.vector_repository - WARNING - Skipping expansion for doc id=35bd60f2-2833-5e2e-960e-7675f8d803e0 due to missing metadata
+2025-08-06 21:42:35,716 - app.persistence.qdrant.vector_repository - WARNING - Skipping expansion for doc id=38ea8204-7d9d-5ea2-adb5-7a7f664bf0b5 due to missing metadata
+2025-08-06 21:42:35,717 - app.persistence.qdrant.vector_repository - INFO - Expansion complete: total results = 3
+2025-08-06 21:58:28,154 - app.api.routes.query - INFO - Requête RAG: 'comment imprimer un devis ?...' par anonymous
+2025-08-06 21:58:28,244 - app.persistence.qdrant.vector_repository - INFO - Starting semantic_search_with_expansion(top_k=3, filter=None)
+2025-08-06 21:58:28,262 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 21:58:28,289 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 21:58:28,291 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=0a2d11e9-322c-5563-b901-eec96138fb69 at index=12
+2025-08-06 21:58:28,302 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 21:58:28,305 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=35bd60f2-2833-5e2e-960e-7675f8d803e0 at index=14
+2025-08-06 21:58:28,314 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 21:58:28,322 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 21:58:28,324 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=5ad3e9e1-6ac6-5efa-9229-c61cfecff031 at index=15
+2025-08-06 21:58:28,359 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 21:58:28,361 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=a4dc30d4-9c08-5afc-9fe6-a5202b204541 at index=2
+2025-08-06 21:58:28,389 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 21:58:28,391 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=beee6ef1-06a7-5b98-ada5-b6ceb3b4a7b5 at index=4
+2025-08-06 21:58:28,391 - app.persistence.qdrant.vector_repository - INFO - Expansion complete: total results = 8
+2025-08-06 22:20:36,308 - app.api.routes.auth - INFO - Tentative de connexion pour: othmane
+2025-08-06 22:20:36,309 - app.services.implementations.admin_service - INFO - Tentative de connexion pour l'utilisateur: othmane
+2025-08-06 22:20:36,367 - app.services.implementations.admin_service - INFO - Utilisateur trouvé: othmane
+2025-08-06 22:20:37,040 - app.services.implementations.admin_service - INFO - Authentification réussie pour: othmane
+2025-08-06 22:20:37,075 - app.api.routes.auth - INFO - Connexion réussie pour: othmane
+2025-08-06 22:29:50,199 - app.api.routes.auth - INFO - Tentative de connexion pour: othmane
+2025-08-06 22:29:50,200 - app.services.implementations.admin_service - INFO - Tentative de connexion pour l'utilisateur: othmane
+2025-08-06 22:29:50,220 - app.services.implementations.admin_service - INFO - Utilisateur trouvé: othmane
+2025-08-06 22:29:50,895 - app.services.implementations.admin_service - INFO - Authentification réussie pour: othmane
+2025-08-06 22:29:50,910 - app.api.routes.auth - INFO - Connexion réussie pour: othmane
+2025-08-06 22:30:29,629 - app.api.routes.query - ERROR - Erreur lors de la requête RAG: 'TokenData' object has no attribute 'get'
+2025-08-06 22:33:07,374 - app.api.routes.query - ERROR - Erreur lors de la requête RAG: 'TokenData' object has no attribute 'get'
+2025-08-06 22:38:52,471 - app.api.routes.query - INFO - Requête RAG: 'comment saisir un devis ?...'
+2025-08-06 22:38:52,576 - app.persistence.qdrant.vector_repository - INFO - Starting semantic_search_with_expansion(top_k=5, filter=None)
+2025-08-06 22:38:52,610 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 22:38:52,628 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 22:38:52,642 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 22:38:52,643 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=cf91567b-c223-52ac-9dfd-4952e048468a at index=1
+2025-08-06 22:38:52,659 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 22:38:52,661 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=0a2d11e9-322c-5563-b901-eec96138fb69 at index=12
+2025-08-06 22:38:52,676 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 22:38:52,678 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=35bd60f2-2833-5e2e-960e-7675f8d803e0 at index=14
+2025-08-06 22:38:52,696 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 22:38:52,714 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 22:38:52,717 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=38ea8204-7d9d-5ea2-adb5-7a7f664bf0b5 at index=3
+2025-08-06 22:38:52,729 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 22:38:52,743 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 22:38:52,746 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=5ad3e9e1-6ac6-5efa-9229-c61cfecff031 at index=15
+2025-08-06 22:38:52,759 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 22:38:52,759 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=3876a0a6-d9f8-57c6-bfc7-28c1f6fcfed2 at index=9
+2025-08-06 22:38:52,771 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 22:38:52,774 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=47511cbf-7644-5287-b3f0-c387cedfeb07 at index=11
+2025-08-06 22:38:52,775 - app.persistence.qdrant.vector_repository - INFO - Expansion complete: total results = 12
+2025-08-06 22:40:11,578 - app.api.routes.query - INFO - Requête RAG: 'comment saisir un devis ?...'
+2025-08-06 22:40:11,605 - app.persistence.qdrant.vector_repository - INFO - Starting semantic_search_with_expansion(top_k=3, filter=None)
+2025-08-06 22:40:11,613 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 22:40:11,625 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 22:40:11,633 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 22:40:11,634 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=cf91567b-c223-52ac-9dfd-4952e048468a at index=1
+2025-08-06 22:40:11,644 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 22:40:11,646 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=0a2d11e9-322c-5563-b901-eec96138fb69 at index=12
+2025-08-06 22:40:11,673 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 22:40:11,675 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=35bd60f2-2833-5e2e-960e-7675f8d803e0 at index=14
+2025-08-06 22:40:11,685 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 22:40:11,696 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 22:40:11,699 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=38ea8204-7d9d-5ea2-adb5-7a7f664bf0b5 at index=3
+2025-08-06 22:40:11,700 - app.persistence.qdrant.vector_repository - INFO - Expansion complete: total results = 7
+2025-08-06 23:01:44,995 - app.api.routes.query - INFO - Requête RAG: 'comment imprimer un devis ?...'
+2025-08-06 23:01:45,025 - app.persistence.qdrant.vector_repository - INFO - Starting semantic_search_with_expansion(top_k=5, filter=None)
+2025-08-06 23:01:45,034 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:01:45,044 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:01:45,045 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=0a2d11e9-322c-5563-b901-eec96138fb69 at index=12
+2025-08-06 23:01:45,052 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:01:45,053 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=35bd60f2-2833-5e2e-960e-7675f8d803e0 at index=14
+2025-08-06 23:01:45,062 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:01:45,073 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:01:45,074 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=5ad3e9e1-6ac6-5efa-9229-c61cfecff031 at index=15
+2025-08-06 23:01:45,086 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:01:45,088 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=a4dc30d4-9c08-5afc-9fe6-a5202b204541 at index=2
+2025-08-06 23:01:45,100 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:01:45,100 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=beee6ef1-06a7-5b98-ada5-b6ceb3b4a7b5 at index=4
+2025-08-06 23:01:45,111 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:01:45,120 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:01:45,122 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=cf91567b-c223-52ac-9dfd-4952e048468a at index=1
+2025-08-06 23:01:45,136 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:01:45,139 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=3876a0a6-d9f8-57c6-bfc7-28c1f6fcfed2 at index=9
+2025-08-06 23:01:45,150 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:01:45,154 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=47511cbf-7644-5287-b3f0-c387cedfeb07 at index=11
+2025-08-06 23:01:45,155 - app.persistence.qdrant.vector_repository - INFO - Expansion complete: total results = 13
+2025-08-06 23:02:44,542 - app.api.routes.query - INFO - Requête RAG: 'comment saisir un devis ?...'
+2025-08-06 23:02:44,564 - app.persistence.qdrant.vector_repository - INFO - Starting semantic_search_with_expansion(top_k=3, filter=None)
+2025-08-06 23:02:44,593 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:02:44,603 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:02:44,613 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:02:44,615 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=cf91567b-c223-52ac-9dfd-4952e048468a at index=1
+2025-08-06 23:02:44,623 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:02:44,624 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=0a2d11e9-322c-5563-b901-eec96138fb69 at index=12
+2025-08-06 23:02:44,633 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:02:44,634 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=35bd60f2-2833-5e2e-960e-7675f8d803e0 at index=14
+2025-08-06 23:02:44,641 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:02:44,650 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:02:44,654 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=38ea8204-7d9d-5ea2-adb5-7a7f664bf0b5 at index=3
+2025-08-06 23:02:44,654 - app.persistence.qdrant.vector_repository - INFO - Expansion complete: total results = 7
+2025-08-06 23:08:35,150 - app.api.routes.query - INFO - Requête RAG: 'comment saisir un devis ?...'
+2025-08-06 23:08:35,209 - app.persistence.qdrant.vector_repository - INFO - Starting semantic_search_with_expansion(top_k=3, filter=None)
+2025-08-06 23:08:35,226 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:08:35,237 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:08:35,247 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:08:35,248 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=cf91567b-c223-52ac-9dfd-4952e048468a at index=1
+2025-08-06 23:08:35,260 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:08:35,262 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=0a2d11e9-322c-5563-b901-eec96138fb69 at index=12
+2025-08-06 23:08:35,270 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:08:35,271 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=35bd60f2-2833-5e2e-960e-7675f8d803e0 at index=14
+2025-08-06 23:08:35,280 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:08:35,290 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:08:35,293 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=38ea8204-7d9d-5ea2-adb5-7a7f664bf0b5 at index=3
+2025-08-06 23:08:35,293 - app.persistence.qdrant.vector_repository - INFO - Expansion complete: total results = 7
+2025-08-06 23:15:35,633 - app.api.routes.auth - INFO - Tentative de connexion pour: othmane
+2025-08-06 23:15:35,633 - app.services.implementations.admin_service - INFO - Tentative de connexion pour l'utilisateur: othmane
+2025-08-06 23:15:35,654 - app.services.implementations.admin_service - INFO - Utilisateur trouvé: othmane
+2025-08-06 23:15:36,291 - app.services.implementations.admin_service - INFO - Authentification réussie pour: othmane
+2025-08-06 23:15:36,311 - app.api.routes.auth - INFO - Connexion réussie pour: othmane
+2025-08-06 23:15:45,124 - app.api.routes.document - ERROR - Erreur lors de la suppression: 'TokenData' object has no attribute 'get'
+2025-08-06 23:18:44,600 - app.api.routes.document - ERROR - Erreur lors de la suppression: 'TokenData' object has no attribute 'get'
+2025-08-06 23:20:40,297 - app.api.routes.document - ERROR - Erreur lors de la suppression: 'TokenData' object has no attribute 'sub'
+2025-08-06 23:22:24,095 - app.api.routes.auth - INFO - Tentative de connexion pour: othmane
+2025-08-06 23:22:24,096 - app.services.implementations.admin_service - INFO - Tentative de connexion pour l'utilisateur: othmane
+2025-08-06 23:22:24,097 - app.services.implementations.admin_service - INFO - Utilisateur trouvé: othmane
+2025-08-06 23:22:24,730 - app.services.implementations.admin_service - INFO - Authentification réussie pour: othmane
+2025-08-06 23:22:24,731 - app.api.routes.auth - INFO - Connexion réussie pour: othmane
+2025-08-06 23:22:31,177 - app.api.routes.document - INFO - Suppression du document 06e38877169d3cf516a9a75f17bc404674834599027c14795e3504a673b046c2
+2025-08-06 23:22:31,205 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/delete?wait=true "HTTP/1.1 200 OK"
+2025-08-06 23:22:31,220 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/scroll "HTTP/1.1 200 OK"
+2025-08-06 23:22:53,796 - app.api.routes.document - ERROR - Erreur lors de l'upload: 'TokenData' object has no attribute 'get'
+2025-08-06 23:25:42,525 - app.api.routes.document - INFO - Upload du fichier 'SNRT-JDE-MUT-DPO-V1.0.pdf'
+2025-08-06 23:25:43,208 - pypdf._reader - WARNING - Ignoring wrong pointing object 21 0 (offset 0)
+2025-08-06 23:25:43,210 - pypdf._reader - WARNING - Ignoring wrong pointing object 31 0 (offset 0)
+2025-08-06 23:26:10,062 - httpx - INFO - HTTP Request: PUT http://localhost:6333/collections/documents/points?wait=true "HTTP/1.1 200 OK"
+2025-08-06 23:26:10,068 - app.api.routes.document - INFO - Fichier 'SNRT-JDE-MUT-DPO-V1.0.pdf' traité en 27.54s
+2025-08-06 23:27:07,351 - app.api.routes.query - INFO - Requête RAG: 'bonjour...'
+2025-08-06 23:27:07,373 - app.persistence.qdrant.vector_repository - INFO - Starting semantic_search_with_expansion(top_k=5, filter=None)
+2025-08-06 23:27:07,379 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:27:07,386 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:27:07,388 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=0a2d11e9-322c-5563-b901-eec96138fb69 at index=12
+2025-08-06 23:27:07,395 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:27:07,397 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=35bd60f2-2833-5e2e-960e-7675f8d803e0 at index=14
+2025-08-06 23:27:07,403 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:27:07,414 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:27:07,416 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=5ad3e9e1-6ac6-5efa-9229-c61cfecff031 at index=15
+2025-08-06 23:27:07,425 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:27:07,425 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=a4dc30d4-9c08-5afc-9fe6-a5202b204541 at index=2
+2025-08-06 23:27:07,433 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:27:07,435 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=beee6ef1-06a7-5b98-ada5-b6ceb3b4a7b5 at index=4
+2025-08-06 23:27:07,444 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:27:07,456 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:27:07,467 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:27:07,475 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:27:07,479 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=cf91567b-c223-52ac-9dfd-4952e048468a at index=1
+2025-08-06 23:27:07,480 - app.persistence.qdrant.vector_repository - INFO - Expansion complete: total results = 11
+2025-08-06 23:45:47,348 - app.api.routes.auth - INFO - Tentative de connexion pour: othamen
+2025-08-06 23:45:47,349 - app.services.implementations.admin_service - INFO - Tentative de connexion pour l'utilisateur: othamen
+2025-08-06 23:45:47,365 - app.services.implementations.admin_service - WARNING - Utilisateur non trouvé: othamen
+2025-08-06 23:46:02,098 - app.api.routes.auth - INFO - Tentative de connexion pour: othmane
+2025-08-06 23:46:02,098 - app.services.implementations.admin_service - INFO - Tentative de connexion pour l'utilisateur: othmane
+2025-08-06 23:46:02,100 - app.services.implementations.admin_service - INFO - Utilisateur trouvé: othmane
+2025-08-06 23:46:02,769 - app.services.implementations.admin_service - INFO - Authentification réussie pour: othmane
+2025-08-06 23:46:02,793 - app.api.routes.auth - INFO - Connexion réussie pour: othmane
+2025-08-06 23:46:21,731 - app.api.routes.query - INFO - Requête RAG: 'comment saisir un devis ?...'
+2025-08-06 23:46:21,795 - app.persistence.qdrant.vector_repository - INFO - Starting semantic_search_with_expansion(top_k=5, filter=None)
+2025-08-06 23:46:21,834 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:46:21,853 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:46:21,870 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:46:21,871 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=cf91567b-c223-52ac-9dfd-4952e048468a at index=1
+2025-08-06 23:46:21,879 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:46:21,881 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=0a2d11e9-322c-5563-b901-eec96138fb69 at index=12
+2025-08-06 23:46:21,902 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:46:21,906 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=35bd60f2-2833-5e2e-960e-7675f8d803e0 at index=14
+2025-08-06 23:46:21,918 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:46:21,928 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:46:21,930 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=38ea8204-7d9d-5ea2-adb5-7a7f664bf0b5 at index=3
+2025-08-06 23:46:21,941 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:46:21,951 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:46:21,954 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=5ad3e9e1-6ac6-5efa-9229-c61cfecff031 at index=15
+2025-08-06 23:46:21,965 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:46:21,965 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=3876a0a6-d9f8-57c6-bfc7-28c1f6fcfed2 at index=9
+2025-08-06 23:46:21,975 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-06 23:46:21,978 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=47511cbf-7644-5287-b3f0-c387cedfeb07 at index=11
+2025-08-06 23:46:21,979 - app.persistence.qdrant.vector_repository - INFO - Expansion complete: total results = 12
+2025-08-06 23:46:23,455 - app.services.implementations.llm_service - ERROR - Erreur lors de l'inférence LLM: 402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-6893db40-51a16741565245ea77f264f2;dfc059bd-fd7a-4d00-a4c3-04edb050b009)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-08-07 10:45:11,521 - app.api.routes.auth - INFO - Tentative de connexion pour: othmane
+2025-08-07 10:45:11,522 - app.services.implementations.admin_service - INFO - Tentative de connexion pour l'utilisateur: othmane
+2025-08-07 10:45:11,630 - app.services.implementations.admin_service - INFO - Utilisateur trouvé: othmane
+2025-08-07 10:45:12,331 - app.services.implementations.admin_service - INFO - Authentification réussie pour: othmane
+2025-08-07 10:45:12,474 - app.api.routes.auth - INFO - Connexion réussie pour: othmane
+2025-08-07 10:45:34,813 - app.api.routes.query - INFO - Requête RAG: 'comment saisir un devis ?...'
+2025-08-07 10:45:35,372 - app.persistence.qdrant.vector_repository - INFO - Starting semantic_search_with_expansion(top_k=5, filter=None)
+2025-08-07 10:45:35,466 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-07 10:45:35,523 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-07 10:45:35,556 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-07 10:45:35,561 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=cf91567b-c223-52ac-9dfd-4952e048468a at index=1
+2025-08-07 10:45:35,585 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-07 10:45:35,590 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=0a2d11e9-322c-5563-b901-eec96138fb69 at index=12
+2025-08-07 10:45:35,603 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-07 10:45:35,611 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=35bd60f2-2833-5e2e-960e-7675f8d803e0 at index=14
+2025-08-07 10:45:35,632 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-07 10:45:35,648 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-07 10:45:35,651 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=38ea8204-7d9d-5ea2-adb5-7a7f664bf0b5 at index=3
+2025-08-07 10:45:35,681 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-07 10:45:35,698 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-07 10:45:35,701 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=5ad3e9e1-6ac6-5efa-9229-c61cfecff031 at index=15
+2025-08-07 10:45:35,729 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-07 10:45:35,733 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=3876a0a6-d9f8-57c6-bfc7-28c1f6fcfed2 at index=9
+2025-08-07 10:45:35,750 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-07 10:45:35,756 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=47511cbf-7644-5287-b3f0-c387cedfeb07 at index=11
+2025-08-07 10:45:35,758 - app.persistence.qdrant.vector_repository - INFO - Expansion complete: total results = 12
+2025-08-07 10:47:06,435 - app.api.routes.auth - INFO - Tentative de connexion pour: othmane
+2025-08-07 10:47:06,437 - app.services.implementations.admin_service - INFO - Tentative de connexion pour l'utilisateur: othmane
+2025-08-07 10:47:06,439 - app.services.implementations.admin_service - INFO - Utilisateur trouvé: othmane
+2025-08-07 10:47:07,133 - app.services.implementations.admin_service - INFO - Authentification réussie pour: othmane
+2025-08-07 10:47:07,135 - app.api.routes.auth - INFO - Connexion réussie pour: othmane
+2025-08-07 10:47:30,420 - app.api.routes.document - INFO - Suppression du document 06e38877169d3cf516a9a75f17bc404674834599027c14795e3504a673b046c2
+2025-08-07 10:47:30,462 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/delete?wait=true "HTTP/1.1 200 OK"
+2025-08-07 10:47:30,509 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/scroll "HTTP/1.1 200 OK"
+2025-08-19 10:24:41,726 - app.api.routes.auth - INFO - Tentative de connexion pour: othmane
+2025-08-19 10:24:41,727 - app.services.implementations.admin_service - INFO - Tentative de connexion pour l'utilisateur: othmane
+2025-08-19 10:24:41,795 - app.services.implementations.admin_service - INFO - Utilisateur trouvé: othmane
+2025-08-19 10:24:42,448 - app.services.implementations.admin_service - INFO - Authentification réussie pour: othmane
+2025-08-19 10:24:42,484 - app.api.routes.auth - INFO - Connexion réussie pour: othmane
+2025-08-19 10:25:28,465 - app.api.routes.document - INFO - Upload du fichier 'SNRT-JDE-MUT-DPO-V1.0.pdf'
+2025-08-19 10:25:29,078 - pypdf._reader - WARNING - Ignoring wrong pointing object 21 0 (offset 0)
+2025-08-19 10:25:29,079 - pypdf._reader - WARNING - Ignoring wrong pointing object 31 0 (offset 0)
+2025-08-19 10:25:56,901 - httpx - INFO - HTTP Request: PUT http://localhost:6333/collections/documents/points?wait=true "HTTP/1.1 200 OK"
+2025-08-19 10:25:56,914 - app.api.routes.document - INFO - Fichier 'SNRT-JDE-MUT-DPO-V1.0.pdf' traité en 28.45s
+2025-08-19 10:26:18,351 - app.api.routes.query - INFO - Requête RAG: 'comment imprimer un devis ?...'
+2025-08-19 10:26:18,376 - app.persistence.qdrant.vector_repository - INFO - Starting semantic_search_with_expansion(top_k=5, filter=None)
+2025-08-19 10:26:18,392 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:26:18,404 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:26:18,405 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=0a2d11e9-322c-5563-b901-eec96138fb69 at index=12
+2025-08-19 10:26:18,414 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:26:18,417 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=35bd60f2-2833-5e2e-960e-7675f8d803e0 at index=14
+2025-08-19 10:26:18,448 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:26:18,456 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:26:18,458 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=5ad3e9e1-6ac6-5efa-9229-c61cfecff031 at index=15
+2025-08-19 10:26:18,468 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:26:18,470 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=a4dc30d4-9c08-5afc-9fe6-a5202b204541 at index=2
+2025-08-19 10:26:18,491 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:26:18,493 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=beee6ef1-06a7-5b98-ada5-b6ceb3b4a7b5 at index=4
+2025-08-19 10:26:18,524 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:26:18,553 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:26:18,555 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=cf91567b-c223-52ac-9dfd-4952e048468a at index=1
+2025-08-19 10:26:18,564 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:26:18,565 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=3876a0a6-d9f8-57c6-bfc7-28c1f6fcfed2 at index=9
+2025-08-19 10:26:18,572 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:26:18,573 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=47511cbf-7644-5287-b3f0-c387cedfeb07 at index=11
+2025-08-19 10:26:18,573 - app.persistence.qdrant.vector_repository - INFO - Expansion complete: total results = 13
+2025-08-19 10:26:19,178 - app.services.implementations.llm_service - ERROR - Erreur lors de l'inférence LLM: 402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-68a4433b-5bfc06eb43da71f124304623;0dafca5a-fd3c-4dd5-9189-5b74ad509e5f)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-08-19 10:28:02,264 - app.api.routes.query - INFO - Requête RAG: 'Comment saisir un devis ?...'
+2025-08-19 10:28:02,355 - app.persistence.qdrant.vector_repository - INFO - Starting semantic_search_with_expansion(top_k=5, filter=None)
+2025-08-19 10:28:02,369 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:28:02,395 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:28:02,425 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:28:02,428 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=cf91567b-c223-52ac-9dfd-4952e048468a at index=1
+2025-08-19 10:28:02,456 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:28:02,460 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=0a2d11e9-322c-5563-b901-eec96138fb69 at index=12
+2025-08-19 10:28:02,488 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:28:02,489 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=35bd60f2-2833-5e2e-960e-7675f8d803e0 at index=14
+2025-08-19 10:28:02,517 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:28:02,549 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:28:02,552 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=38ea8204-7d9d-5ea2-adb5-7a7f664bf0b5 at index=3
+2025-08-19 10:28:02,561 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:28:02,579 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:28:02,580 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=5ad3e9e1-6ac6-5efa-9229-c61cfecff031 at index=15
+2025-08-19 10:28:02,587 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:28:02,589 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=3876a0a6-d9f8-57c6-bfc7-28c1f6fcfed2 at index=9
+2025-08-19 10:28:02,601 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:28:02,602 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=47511cbf-7644-5287-b3f0-c387cedfeb07 at index=11
+2025-08-19 10:28:02,602 - app.persistence.qdrant.vector_repository - INFO - Expansion complete: total results = 12
+2025-08-19 10:29:57,375 - app.api.routes.query - INFO - Requête RAG: 'Comment imprimer un devis ?...'
+2025-08-19 10:29:57,435 - app.persistence.qdrant.vector_repository - INFO - Starting semantic_search_with_expansion(top_k=5, filter=None)
+2025-08-19 10:29:57,445 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:29:57,476 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:29:57,479 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=0a2d11e9-322c-5563-b901-eec96138fb69 at index=12
+2025-08-19 10:29:57,491 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:29:57,494 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=35bd60f2-2833-5e2e-960e-7675f8d803e0 at index=14
+2025-08-19 10:29:57,503 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:29:57,512 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:29:57,513 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=5ad3e9e1-6ac6-5efa-9229-c61cfecff031 at index=15
+2025-08-19 10:29:57,526 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:29:57,526 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=a4dc30d4-9c08-5afc-9fe6-a5202b204541 at index=2
+2025-08-19 10:29:57,535 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:29:57,537 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=beee6ef1-06a7-5b98-ada5-b6ceb3b4a7b5 at index=4
+2025-08-19 10:29:57,548 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:29:57,569 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:29:57,572 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=cf91567b-c223-52ac-9dfd-4952e048468a at index=1
+2025-08-19 10:29:57,583 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:29:57,584 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=3876a0a6-d9f8-57c6-bfc7-28c1f6fcfed2 at index=9
+2025-08-19 10:29:57,592 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:29:57,592 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=47511cbf-7644-5287-b3f0-c387cedfeb07 at index=11
+2025-08-19 10:29:57,593 - app.persistence.qdrant.vector_repository - INFO - Expansion complete: total results = 13
+2025-08-19 10:30:50,593 - app.api.routes.query - INFO - Requête RAG: 'bonjour...'
+2025-08-19 10:30:50,656 - app.persistence.qdrant.vector_repository - INFO - Starting semantic_search_with_expansion(top_k=5, filter=None)
+2025-08-19 10:30:50,699 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:30:50,721 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:30:50,726 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=0a2d11e9-322c-5563-b901-eec96138fb69 at index=12
+2025-08-19 10:30:50,761 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:30:50,763 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=35bd60f2-2833-5e2e-960e-7675f8d803e0 at index=14
+2025-08-19 10:30:50,808 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:30:50,837 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:30:50,840 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=5ad3e9e1-6ac6-5efa-9229-c61cfecff031 at index=15
+2025-08-19 10:30:50,866 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:30:50,870 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=a4dc30d4-9c08-5afc-9fe6-a5202b204541 at index=2
+2025-08-19 10:30:50,891 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:30:50,893 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=beee6ef1-06a7-5b98-ada5-b6ceb3b4a7b5 at index=4
+2025-08-19 10:30:50,912 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:30:50,943 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:30:50,974 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:30:50,989 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:30:50,991 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=cf91567b-c223-52ac-9dfd-4952e048468a at index=1
+2025-08-19 10:30:50,992 - app.persistence.qdrant.vector_repository - INFO - Expansion complete: total results = 11
+2025-08-19 10:32:06,531 - app.api.routes.query - INFO - Requête RAG: 'Comment consulter DES COMMANDES EN COURS ?...'
+2025-08-19 10:32:06,591 - app.persistence.qdrant.vector_repository - INFO - Starting semantic_search_with_expansion(top_k=5, filter=None)
+2025-08-19 10:32:06,630 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:32:06,660 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:32:06,662 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=47511cbf-7644-5287-b3f0-c387cedfeb07 at index=11
+2025-08-19 10:32:06,691 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:32:06,695 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=132664da-7618-5f20-9d4a-88e1f849ac8e at index=13
+2025-08-19 10:32:06,715 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:32:06,753 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:32:06,757 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=5ad3e9e1-6ac6-5efa-9229-c61cfecff031 at index=15
+2025-08-19 10:32:06,785 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:32:06,789 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=beee6ef1-06a7-5b98-ada5-b6ceb3b4a7b5 at index=4
+2025-08-19 10:32:06,808 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:32:06,811 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=c4a5f947-09ba-5dcd-8f74-043abb7e2562 at index=6
+2025-08-19 10:32:06,845 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:32:06,850 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=3876a0a6-d9f8-57c6-bfc7-28c1f6fcfed2 at index=9
+2025-08-19 10:32:06,867 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:32:06,886 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:32:06,891 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=cf91567b-c223-52ac-9dfd-4952e048468a at index=1
+2025-08-19 10:32:06,908 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-19 10:32:06,912 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=38ea8204-7d9d-5ea2-adb5-7a7f664bf0b5 at index=3
+2025-08-19 10:32:06,914 - app.persistence.qdrant.vector_repository - INFO - Expansion complete: total results = 13
+2025-08-19 10:33:08,486 - app.api.routes.auth - INFO - Tentative de connexion pour: othmane
+2025-08-19 10:33:08,487 - app.services.implementations.admin_service - INFO - Tentative de connexion pour l'utilisateur: othmane
+2025-08-19 10:33:08,491 - app.services.implementations.admin_service - INFO - Utilisateur trouvé: othmane
+2025-08-19 10:33:09,183 - app.services.implementations.admin_service - INFO - Authentification réussie pour: othmane
+2025-08-19 10:33:09,207 - app.api.routes.auth - INFO - Connexion réussie pour: othmane
+2025-08-19 10:33:18,912 - app.api.routes.document - INFO - Suppression du document 06e38877169d3cf516a9a75f17bc404674834599027c14795e3504a673b046c2
+2025-08-19 10:33:18,941 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/delete?wait=true "HTTP/1.1 200 OK"
+2025-08-19 10:33:18,973 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/scroll "HTTP/1.1 200 OK"
+2025-08-21 20:07:12,754 - app.api.routes.auth - INFO - Tentative de connexion pour: othmane
+2025-08-21 20:07:12,756 - app.services.implementations.admin_service - INFO - Tentative de connexion pour l'utilisateur: othmane
+2025-08-21 20:07:12,819 - app.services.implementations.admin_service - INFO - Utilisateur trouvé: othmane
+2025-08-21 20:07:13,491 - app.services.implementations.admin_service - INFO - Authentification réussie pour: othmane
+2025-08-21 20:07:13,548 - app.api.routes.auth - INFO - Connexion réussie pour: othmane
+2025-08-21 20:07:32,113 - app.api.routes.document - INFO - Upload du fichier 'SNRT-JDE-MUT-DPO-V1.0.pdf'
+2025-08-21 20:07:32,788 - pypdf._reader - WARNING - Ignoring wrong pointing object 21 0 (offset 0)
+2025-08-21 20:07:32,791 - pypdf._reader - WARNING - Ignoring wrong pointing object 31 0 (offset 0)
+2025-08-21 20:08:00,965 - app.services.implementations.document_service - ERROR - Erreur lors du traitement du document: PDFMetadata.__init__() missing 1 required positional argument: 'file_size'
+2025-08-21 20:18:13,705 - app.api.routes.document - INFO - Upload du fichier 'SNRT-JDE-MUT-DPO-V1.0.pdf'
+2025-08-21 20:18:14,227 - pypdf._reader - WARNING - Ignoring wrong pointing object 21 0 (offset 0)
+2025-08-21 20:18:14,230 - pypdf._reader - WARNING - Ignoring wrong pointing object 31 0 (offset 0)
+2025-08-21 20:18:17,602 - app.services.implementations.document_service - ERROR - Erreur lors du traitement du document: PdfProcessor.vectorize_text() missing 1 required positional argument: 'file_size'
+2025-08-21 20:23:46,339 - app.api.routes.document - INFO - Upload du fichier 'SNRT-JDE-MUT-DPO-V1.0.pdf'
+2025-08-21 20:23:46,835 - pypdf._reader - WARNING - Ignoring wrong pointing object 21 0 (offset 0)
+2025-08-21 20:23:46,837 - pypdf._reader - WARNING - Ignoring wrong pointing object 31 0 (offset 0)
+2025-08-21 20:24:10,986 - httpx - INFO - HTTP Request: PUT http://localhost:6333/collections/documents/points?wait=true "HTTP/1.1 200 OK"
+2025-08-21 20:24:11,010 - app.api.routes.document - INFO - Fichier 'SNRT-JDE-MUT-DPO-V1.0.pdf' traité en 24.67s
+2025-08-21 20:25:45,620 - app.api.routes.auth - INFO - Tentative de connexion pour: othmane 
+2025-08-21 20:25:45,621 - app.services.implementations.admin_service - INFO - Tentative de connexion pour l'utilisateur: othmane 
+2025-08-21 20:25:45,623 - app.services.implementations.admin_service - WARNING - Utilisateur non trouvé: othmane 
+2025-08-21 20:25:59,013 - app.api.routes.auth - INFO - Tentative de connexion pour: othmane
+2025-08-21 20:25:59,013 - app.services.implementations.admin_service - INFO - Tentative de connexion pour l'utilisateur: othmane
+2025-08-21 20:25:59,015 - app.services.implementations.admin_service - INFO - Utilisateur trouvé: othmane
+2025-08-21 20:25:59,658 - app.services.implementations.admin_service - INFO - Authentification réussie pour: othmane
+2025-08-21 20:25:59,659 - app.api.routes.auth - INFO - Connexion réussie pour: othmane
+2025-08-21 20:26:08,564 - app.api.routes.document - INFO - Suppression du document 06e38877169d3cf516a9a75f17bc404674834599027c14795e3504a673b046c2
+2025-08-21 20:26:08,606 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/delete?wait=true "HTTP/1.1 200 OK"
+2025-08-21 20:26:08,620 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/scroll "HTTP/1.1 200 OK"
+2025-08-25 12:41:08,328 - app.api.routes.auth - INFO - Tentative de connexion pour: othmane
+2025-08-25 12:41:08,332 - app.services.implementations.admin_service - INFO - Tentative de connexion pour l'utilisateur: othmane
+2025-08-25 12:41:08,407 - app.services.implementations.admin_service - INFO - Utilisateur trouvé: othmane
+2025-08-25 12:41:08,997 - app.services.implementations.admin_service - INFO - Authentification réussie pour: othmane
+2025-08-25 12:41:09,122 - app.api.routes.auth - INFO - Connexion réussie pour: othmane
+2025-08-25 12:42:03,491 - app.api.routes.document - INFO - Upload du fichier 'SNRT-JDE-MUT-DPO-V1.0.pdf'
+2025-08-25 12:42:04,305 - pypdf._reader - WARNING - Ignoring wrong pointing object 21 0 (offset 0)
+2025-08-25 12:42:04,308 - pypdf._reader - WARNING - Ignoring wrong pointing object 31 0 (offset 0)
+2025-08-25 12:42:38,233 - httpx - INFO - HTTP Request: PUT http://localhost:6333/collections/documents/points?wait=true "HTTP/1.1 200 OK"
+2025-08-25 12:42:38,269 - app.api.routes.document - INFO - Fichier 'SNRT-JDE-MUT-DPO-V1.0.pdf' traité en 34.78s
+2025-08-25 12:44:36,448 - app.api.routes.query - INFO - Requête RAG: 'quelles sont les etapes de Géneration d'UNE COMMAN...'
+2025-08-25 12:44:36,508 - app.persistence.qdrant.vector_repository - INFO - Starting semantic_search_with_expansion(top_k=5, filter=None)
+2025-08-25 12:44:36,561 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:44:36,614 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:44:36,616 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=18abdb75-992e-55cf-8d6d-e95de6f16b48 at index=10
+2025-08-25 12:44:36,639 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:44:36,644 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=0a2d11e9-322c-5563-b901-eec96138fb69 at index=12
+2025-08-25 12:44:36,684 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:44:36,688 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=beee6ef1-06a7-5b98-ada5-b6ceb3b4a7b5 at index=4
+2025-08-25 12:44:36,735 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:44:36,741 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=c4a5f947-09ba-5dcd-8f74-043abb7e2562 at index=6
+2025-08-25 12:44:36,794 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:44:36,797 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=132664da-7618-5f20-9d4a-88e1f849ac8e at index=13
+2025-08-25 12:44:36,829 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:44:36,832 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=5ad3e9e1-6ac6-5efa-9229-c61cfecff031 at index=15
+2025-08-25 12:44:36,875 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:44:36,877 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=3876a0a6-d9f8-57c6-bfc7-28c1f6fcfed2 at index=9
+2025-08-25 12:44:36,923 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:44:36,949 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:44:36,957 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=cf91567b-c223-52ac-9dfd-4952e048468a at index=1
+2025-08-25 12:44:36,995 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:44:37,000 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=38ea8204-7d9d-5ea2-adb5-7a7f664bf0b5 at index=3
+2025-08-25 12:44:37,002 - app.persistence.qdrant.vector_repository - INFO - Expansion complete: total results = 14
+2025-08-25 12:45:47,787 - app.api.routes.query - INFO - Requête RAG: 'comment faire une reception ?...'
+2025-08-25 12:45:47,842 - app.persistence.qdrant.vector_repository - INFO - Starting semantic_search_with_expansion(top_k=5, filter=None)
+2025-08-25 12:45:47,861 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:45:47,883 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:45:47,887 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=3876a0a6-d9f8-57c6-bfc7-28c1f6fcfed2 at index=9
+2025-08-25 12:45:47,928 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:45:47,934 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=47511cbf-7644-5287-b3f0-c387cedfeb07 at index=11
+2025-08-25 12:45:47,977 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:45:47,980 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=0a2d11e9-322c-5563-b901-eec96138fb69 at index=12
+2025-08-25 12:45:48,023 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:45:48,027 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=35bd60f2-2833-5e2e-960e-7675f8d803e0 at index=14
+2025-08-25 12:45:48,053 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:45:48,058 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=38ea8204-7d9d-5ea2-adb5-7a7f664bf0b5 at index=3
+2025-08-25 12:45:48,076 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:45:48,080 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=ab7836a2-bc7a-5d33-975f-110ca24917aa at index=5
+2025-08-25 12:45:48,098 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:45:48,101 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=a4dc30d4-9c08-5afc-9fe6-a5202b204541 at index=2
+2025-08-25 12:45:48,123 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:45:48,145 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:45:48,164 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:45:48,167 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=5ad3e9e1-6ac6-5efa-9229-c61cfecff031 at index=15
+2025-08-25 12:45:48,169 - app.persistence.qdrant.vector_repository - INFO - Expansion complete: total results = 13
+2025-08-25 12:46:23,209 - app.api.routes.query - INFO - Requête RAG: 'comment saisir un devis ?...'
+2025-08-25 12:46:23,276 - app.persistence.qdrant.vector_repository - INFO - Starting semantic_search_with_expansion(top_k=5, filter=None)
+2025-08-25 12:46:23,313 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:46:23,350 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:46:23,388 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:46:23,394 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=cf91567b-c223-52ac-9dfd-4952e048468a at index=1
+2025-08-25 12:46:23,417 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:46:23,422 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=0a2d11e9-322c-5563-b901-eec96138fb69 at index=12
+2025-08-25 12:46:23,447 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:46:23,449 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=35bd60f2-2833-5e2e-960e-7675f8d803e0 at index=14
+2025-08-25 12:46:23,464 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:46:23,484 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:46:23,490 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=38ea8204-7d9d-5ea2-adb5-7a7f664bf0b5 at index=3
+2025-08-25 12:46:23,510 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:46:23,530 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:46:23,534 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=5ad3e9e1-6ac6-5efa-9229-c61cfecff031 at index=15
+2025-08-25 12:46:23,552 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:46:23,556 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=3876a0a6-d9f8-57c6-bfc7-28c1f6fcfed2 at index=9
+2025-08-25 12:46:23,572 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:46:23,576 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=47511cbf-7644-5287-b3f0-c387cedfeb07 at index=11
+2025-08-25 12:46:23,578 - app.persistence.qdrant.vector_repository - INFO - Expansion complete: total results = 12
+2025-08-25 12:47:55,156 - app.api.routes.query - INFO - Requête RAG: 'quelles sont les etapes de Géneration d'UNE COMMAN...'
+2025-08-25 12:47:55,215 - app.persistence.qdrant.vector_repository - INFO - Starting semantic_search_with_expansion(top_k=5, filter=None)
+2025-08-25 12:47:55,235 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:47:55,285 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:47:55,291 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=18abdb75-992e-55cf-8d6d-e95de6f16b48 at index=10
+2025-08-25 12:47:55,313 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:47:55,318 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=0a2d11e9-322c-5563-b901-eec96138fb69 at index=12
+2025-08-25 12:47:55,364 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:47:55,369 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=beee6ef1-06a7-5b98-ada5-b6ceb3b4a7b5 at index=4
+2025-08-25 12:47:55,406 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:47:55,416 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=c4a5f947-09ba-5dcd-8f74-043abb7e2562 at index=6
+2025-08-25 12:47:55,439 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:47:55,444 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=132664da-7618-5f20-9d4a-88e1f849ac8e at index=13
+2025-08-25 12:47:55,467 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:47:55,475 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=5ad3e9e1-6ac6-5efa-9229-c61cfecff031 at index=15
+2025-08-25 12:47:55,496 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:47:55,500 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=3876a0a6-d9f8-57c6-bfc7-28c1f6fcfed2 at index=9
+2025-08-25 12:47:55,524 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:47:55,545 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:47:55,548 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=cf91567b-c223-52ac-9dfd-4952e048468a at index=1
+2025-08-25 12:47:55,570 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:47:55,577 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=38ea8204-7d9d-5ea2-adb5-7a7f664bf0b5 at index=3
+2025-08-25 12:47:55,580 - app.persistence.qdrant.vector_repository - INFO - Expansion complete: total results = 14
+2025-08-25 12:48:34,142 - app.api.routes.query - INFO - Requête RAG: 'comment saisir un devis ?...'
+2025-08-25 12:48:34,207 - app.persistence.qdrant.vector_repository - INFO - Starting semantic_search_with_expansion(top_k=5, filter=None)
+2025-08-25 12:48:34,245 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:48:34,275 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:48:34,293 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:48:34,296 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=cf91567b-c223-52ac-9dfd-4952e048468a at index=1
+2025-08-25 12:48:34,315 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:48:34,321 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=0a2d11e9-322c-5563-b901-eec96138fb69 at index=12
+2025-08-25 12:48:34,347 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:48:34,353 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=35bd60f2-2833-5e2e-960e-7675f8d803e0 at index=14
+2025-08-25 12:48:34,372 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:48:34,411 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:48:34,415 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=38ea8204-7d9d-5ea2-adb5-7a7f664bf0b5 at index=3
+2025-08-25 12:48:34,444 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:48:34,474 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:48:34,477 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=5ad3e9e1-6ac6-5efa-9229-c61cfecff031 at index=15
+2025-08-25 12:48:34,494 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:48:34,498 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=3876a0a6-d9f8-57c6-bfc7-28c1f6fcfed2 at index=9
+2025-08-25 12:48:34,536 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 12:48:34,539 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=47511cbf-7644-5287-b3f0-c387cedfeb07 at index=11
+2025-08-25 12:48:34,542 - app.persistence.qdrant.vector_repository - INFO - Expansion complete: total results = 12
+2025-08-25 23:20:50,960 - app.api.routes.query - INFO - Requête RAG: 'comment saisir un devis ?...'
+2025-08-25 23:20:51,220 - app.persistence.qdrant.vector_repository - INFO - Starting semantic_search_with_expansion(top_k=5, filter=None)
+2025-08-25 23:20:51,287 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 23:20:51,346 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 23:20:51,381 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 23:20:51,384 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=cf91567b-c223-52ac-9dfd-4952e048468a at index=1
+2025-08-25 23:20:51,403 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 23:20:51,408 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=0a2d11e9-322c-5563-b901-eec96138fb69 at index=12
+2025-08-25 23:20:51,425 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 23:20:51,430 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=35bd60f2-2833-5e2e-960e-7675f8d803e0 at index=14
+2025-08-25 23:20:51,451 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 23:20:51,477 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 23:20:51,483 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=38ea8204-7d9d-5ea2-adb5-7a7f664bf0b5 at index=3
+2025-08-25 23:20:51,523 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 23:20:51,551 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 23:20:51,556 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=5ad3e9e1-6ac6-5efa-9229-c61cfecff031 at index=15
+2025-08-25 23:20:51,581 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 23:20:51,584 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=3876a0a6-d9f8-57c6-bfc7-28c1f6fcfed2 at index=9
+2025-08-25 23:20:51,617 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 23:20:51,622 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=47511cbf-7644-5287-b3f0-c387cedfeb07 at index=11
+2025-08-25 23:20:51,626 - app.persistence.qdrant.vector_repository - INFO - Expansion complete: total results = 12
+2025-08-25 23:25:13,070 - app.api.routes.query - INFO - Requête RAG: 'comment saisir un devis ?...'
+2025-08-25 23:25:13,212 - app.persistence.qdrant.vector_repository - INFO - Starting semantic_search_with_expansion(top_k=5, filter=None)
+2025-08-25 23:25:13,254 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 23:25:13,303 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 23:25:13,344 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 23:25:13,349 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=cf91567b-c223-52ac-9dfd-4952e048468a at index=1
+2025-08-25 23:25:13,376 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 23:25:13,379 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=0a2d11e9-322c-5563-b901-eec96138fb69 at index=12
+2025-08-25 23:25:13,407 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 23:25:13,411 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=35bd60f2-2833-5e2e-960e-7675f8d803e0 at index=14
+2025-08-25 23:25:13,457 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 23:25:13,500 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 23:25:13,506 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=38ea8204-7d9d-5ea2-adb5-7a7f664bf0b5 at index=3
+2025-08-25 23:25:13,527 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 23:25:13,563 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 23:25:13,569 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=5ad3e9e1-6ac6-5efa-9229-c61cfecff031 at index=15
+2025-08-25 23:25:13,595 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 23:25:13,599 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=3876a0a6-d9f8-57c6-bfc7-28c1f6fcfed2 at index=9
+2025-08-25 23:25:13,641 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 23:25:13,645 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=47511cbf-7644-5287-b3f0-c387cedfeb07 at index=11
+2025-08-25 23:25:13,649 - app.persistence.qdrant.vector_repository - INFO - Expansion complete: total results = 12
+2025-08-25 23:31:57,607 - app.api.routes.query - INFO - Requête RAG: 'comment GÉNÉRER UNE COMMANDE À PARTIR D’UNE demand...'
+2025-08-25 23:31:57,823 - app.persistence.qdrant.vector_repository - INFO - Starting semantic_search_with_expansion(top_k=5, filter=None)
+2025-08-25 23:31:57,852 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 23:31:57,905 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 23:31:57,910 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=3876a0a6-d9f8-57c6-bfc7-28c1f6fcfed2 at index=9
+2025-08-25 23:31:57,935 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 23:31:57,940 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=47511cbf-7644-5287-b3f0-c387cedfeb07 at index=11
+2025-08-25 23:31:57,965 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 23:31:57,997 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 23:31:58,000 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=0a2d11e9-322c-5563-b901-eec96138fb69 at index=12
+2025-08-25 23:31:58,046 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 23:31:58,050 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=132664da-7618-5f20-9d4a-88e1f849ac8e at index=13
+2025-08-25 23:31:58,092 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 23:31:58,097 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=5ad3e9e1-6ac6-5efa-9229-c61cfecff031 at index=15
+2025-08-25 23:31:58,118 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 23:31:58,122 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=5ca969e6-8567-5f99-9e0c-5a8b69d57ff5 at index=7
+2025-08-25 23:31:58,143 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 23:31:58,184 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 23:31:58,187 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=beee6ef1-06a7-5b98-ada5-b6ceb3b4a7b5 at index=4
+2025-08-25 23:31:58,206 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-25 23:31:58,211 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=c4a5f947-09ba-5dcd-8f74-043abb7e2562 at index=6
+2025-08-25 23:31:58,212 - app.persistence.qdrant.vector_repository - INFO - Expansion complete: total results = 13
+2025-08-26 15:39:53,675 - app.api.routes.auth - INFO - Tentative de connexion pour: othmane
+2025-08-26 15:39:53,677 - app.services.implementations.admin_service - INFO - Tentative de connexion pour l'utilisateur: othmane
+2025-08-26 15:39:53,778 - app.services.implementations.admin_service - INFO - Utilisateur trouvé: othmane
+2025-08-26 15:39:54,493 - app.services.implementations.admin_service - INFO - Authentification réussie pour: othmane
+2025-08-26 15:39:54,565 - app.api.routes.auth - INFO - Connexion réussie pour: othmane
+2025-08-26 15:43:51,542 - app.api.routes.document - INFO - Suppression du document 06e38877169d3cf516a9a75f17bc404674834599027c14795e3504a673b046c2
+2025-08-26 15:43:51,663 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/delete?wait=true "HTTP/1.1 200 OK"
+2025-08-26 15:43:51,706 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/scroll "HTTP/1.1 200 OK"
+2025-08-26 15:44:03,175 - app.api.routes.document - INFO - Upload du fichier 'SNRT-JDE-MUT-DPO-V1.0.pdf'
+2025-08-26 15:44:03,948 - pypdf._reader - WARNING - Ignoring wrong pointing object 21 0 (offset 0)
+2025-08-26 15:44:03,949 - pypdf._reader - WARNING - Ignoring wrong pointing object 31 0 (offset 0)
+2025-08-26 15:44:36,625 - httpx - INFO - HTTP Request: PUT http://localhost:6333/collections/documents/points?wait=true "HTTP/1.1 200 OK"
+2025-08-26 15:44:36,636 - app.api.routes.document - INFO - Fichier 'SNRT-JDE-MUT-DPO-V1.0.pdf' traité en 33.46s
+2025-08-26 15:45:37,341 - app.api.routes.query - INFO - Requête RAG: 'comment faire une reception ?...'
+2025-08-26 15:45:37,399 - app.persistence.qdrant.vector_repository - INFO - Starting semantic_search_with_expansion(top_k=5, filter=None)
+2025-08-26 15:45:37,429 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-26 15:45:37,450 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-26 15:45:37,452 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=3876a0a6-d9f8-57c6-bfc7-28c1f6fcfed2 at index=9
+2025-08-26 15:45:37,478 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-26 15:45:37,481 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=47511cbf-7644-5287-b3f0-c387cedfeb07 at index=11
+2025-08-26 15:45:37,514 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-26 15:45:37,517 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=0a2d11e9-322c-5563-b901-eec96138fb69 at index=12
+2025-08-26 15:45:37,549 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-26 15:45:37,555 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=35bd60f2-2833-5e2e-960e-7675f8d803e0 at index=14
+2025-08-26 15:45:37,593 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-26 15:45:37,596 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=38ea8204-7d9d-5ea2-adb5-7a7f664bf0b5 at index=3
+2025-08-26 15:45:37,624 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-26 15:45:37,628 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=ab7836a2-bc7a-5d33-975f-110ca24917aa at index=5
+2025-08-26 15:45:37,655 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-26 15:45:37,656 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=a4dc30d4-9c08-5afc-9fe6-a5202b204541 at index=2
+2025-08-26 15:45:37,675 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-26 15:45:37,693 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-26 15:45:37,711 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-26 15:45:37,716 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=5ad3e9e1-6ac6-5efa-9229-c61cfecff031 at index=15
+2025-08-26 15:45:37,717 - app.persistence.qdrant.vector_repository - INFO - Expansion complete: total results = 13
+2025-08-27 10:42:04,686 - app.services.implementations.local_llm_service - INFO - Chargement du modèle depuis: C:\Users\HP\Documents\INDIA-2\stage-repo\ChatBot-RAG\chat-backend\app\llms_models\gpt2
+2025-08-27 10:42:04,686 - app.services.implementations.local_llm_service - INFO - Device utilisé: cpu
+2025-08-27 10:42:04,687 - app.services.implementations.local_llm_service - ERROR - Erreur lors du chargement du modèle: Repo id must use alphanumeric chars or '-', '_', '.', '--' and '..' are forbidden, '-' and '.' cannot start or end the name, max length is 96: 'C:\Users\HP\Documents\INDIA-2\stage-repo\ChatBot-RAG\chat-backend\app\llms_models\gpt2'.
+2025-08-27 10:46:30,384 - app.services.startup_service - INFO -  Démarrage de l'initialisation des services...
+2025-08-27 10:46:30,384 - app.services.startup_service - INFO -  Chargement du modèle LLM local...
+2025-08-27 10:46:30,385 - app.services.implementations.local_llm_service - INFO - Chargement du modèle depuis: C:\Users\HP\Documents\INDIA-2\stage-repo\ChatBot-RAG\chat-backend\app\llms_models\gpt2
+2025-08-27 10:46:30,387 - app.services.implementations.local_llm_service - INFO - Device utilisé: cpu
+2025-08-27 10:46:30,388 - app.services.implementations.local_llm_service - ERROR - Erreur lors du chargement du modèle: Repo id must use alphanumeric chars or '-', '_', '.', '--' and '..' are forbidden, '-' and '.' cannot start or end the name, max length is 96: 'C:\Users\HP\Documents\INDIA-2\stage-repo\ChatBot-RAG\chat-backend\app\llms_models\gpt2'.
+2025-08-27 10:46:30,390 - app.services.startup_service - ERROR -  Erreur lors de l'initialisation des services: Impossible de charger le modèle: Repo id must use alphanumeric chars or '-', '_', '.', '--' and '..' are forbidden, '-' and '.' cannot start or end the name, max length is 96: 'C:\Users\HP\Documents\INDIA-2\stage-repo\ChatBot-RAG\chat-backend\app\llms_models\gpt2'.
+2025-08-27 10:49:45,929 - app.services.startup_service - INFO -  Démarrage de l'initialisation des services...
+2025-08-27 10:49:45,930 - app.services.startup_service - INFO -  Chargement du modèle LLM local...
+2025-08-27 10:49:45,932 - app.services.implementations.local_llm_service - INFO - Chargement du modèle depuis: C:\Users\HP\Documents\INDIA-2\stage-repo\ChatBot-RAG\chat-backend\app\llms_models\gpt2
+2025-08-27 10:49:45,934 - app.services.implementations.local_llm_service - INFO - Device demandé: cpu | GPU disponible: False
+2025-08-27 10:49:45,936 - app.services.implementations.local_llm_service - ERROR - Erreur lors du chargement du modèle: Repo id must use alphanumeric chars or '-', '_', '.', '--' and '..' are forbidden, '-' and '.' cannot start or end the name, max length is 96: 'C:\Users\HP\Documents\INDIA-2\stage-repo\ChatBot-RAG\chat-backend\app\llms_models\gpt2'.
+2025-08-27 10:49:45,938 - app.services.startup_service - ERROR -  Erreur lors de l'initialisation des services: Impossible de charger le modèle: Repo id must use alphanumeric chars or '-', '_', '.', '--' and '..' are forbidden, '-' and '.' cannot start or end the name, max length is 96: 'C:\Users\HP\Documents\INDIA-2\stage-repo\ChatBot-RAG\chat-backend\app\llms_models\gpt2'.
+2025-08-27 10:51:42,070 - app.services.startup_service - INFO -  Démarrage de l'initialisation des services...
+2025-08-27 10:51:42,072 - app.services.startup_service - INFO -  Chargement du modèle LLM local...
+2025-08-27 10:51:42,074 - app.services.implementations.local_llm_service - INFO - Chargement du modèle depuis: C:\Users\HP\Documents\INDIA-2\stage-repo\ChatBot-RAG\chat-backend\app\llms_models\gpt2
+2025-08-27 10:51:42,075 - app.services.implementations.local_llm_service - INFO - Device demandé: cpu | GPU disponible: False
+2025-08-27 10:51:42,078 - app.services.implementations.local_llm_service - ERROR - Erreur lors du chargement du modèle: Repo id must use alphanumeric chars or '-', '_', '.', '--' and '..' are forbidden, '-' and '.' cannot start or end the name, max length is 96: 'C:\Users\HP\Documents\INDIA-2\stage-repo\ChatBot-RAG\chat-backend\app\llms_models\gpt2'.
+2025-08-27 10:51:42,080 - app.services.startup_service - ERROR -  Erreur lors de l'initialisation des services: Impossible de charger le modèle: Repo id must use alphanumeric chars or '-', '_', '.', '--' and '..' are forbidden, '-' and '.' cannot start or end the name, max length is 96: 'C:\Users\HP\Documents\INDIA-2\stage-repo\ChatBot-RAG\chat-backend\app\llms_models\gpt2'.
+2025-08-27 10:57:12,571 - app.services.startup_service - INFO -  Démarrage de l'initialisation des services...
+2025-08-27 10:57:12,572 - app.services.startup_service - INFO -  Chargement du modèle LLM local...
+2025-08-27 10:57:12,573 - app.services.implementations.local_llm_service - INFO - Chargement du modèle depuis: C:\Users\HP\Documents\INDIA-2\stage-repo\ChatBot-RAG\chat-backend\app\llms_models\gpt2
+2025-08-27 10:57:12,574 - app.services.implementations.local_llm_service - INFO - Device demandé: cpu | GPU disponible: False
+2025-08-27 10:57:12,574 - app.services.implementations.local_llm_service - ERROR - Erreur lors du chargement du modèle: Repo id must use alphanumeric chars or '-', '_', '.', '--' and '..' are forbidden, '-' and '.' cannot start or end the name, max length is 96: 'C:\Users\HP\Documents\INDIA-2\stage-repo\ChatBot-RAG\chat-backend\app\llms_models\gpt2'.
+2025-08-27 10:57:12,576 - app.services.startup_service - ERROR -  Erreur lors de l'initialisation des services: Impossible de charger le modèle: Repo id must use alphanumeric chars or '-', '_', '.', '--' and '..' are forbidden, '-' and '.' cannot start or end the name, max length is 96: 'C:\Users\HP\Documents\INDIA-2\stage-repo\ChatBot-RAG\chat-backend\app\llms_models\gpt2'.
+2025-08-27 11:00:15,682 - app.services.startup_service - INFO -  Démarrage de l'initialisation des services...
+2025-08-27 11:00:15,684 - app.services.startup_service - INFO -  Chargement du modèle LLM local...
+2025-08-27 11:00:15,686 - app.services.implementations.local_llm_service - INFO - Chargement du modèle depuis: C:\Users\HP\Documents\INDIA-2\stage-repo\ChatBot-RAG\chat-backend\app\llms_models\gpt2
+2025-08-27 11:00:15,687 - app.services.implementations.local_llm_service - INFO - Device demandé: cpu | GPU disponible: False
+2025-08-27 11:00:15,689 - app.services.implementations.local_llm_service - ERROR - Erreur lors du chargement du modèle: Repo id must use alphanumeric chars or '-', '_', '.', '--' and '..' are forbidden, '-' and '.' cannot start or end the name, max length is 96: 'C:\Users\HP\Documents\INDIA-2\stage-repo\ChatBot-RAG\chat-backend\app\llms_models\gpt2'.
+2025-08-27 11:00:15,693 - app.services.startup_service - ERROR -  Erreur lors de l'initialisation des services: Impossible de charger le modèle: Repo id must use alphanumeric chars or '-', '_', '.', '--' and '..' are forbidden, '-' and '.' cannot start or end the name, max length is 96: 'C:\Users\HP\Documents\INDIA-2\stage-repo\ChatBot-RAG\chat-backend\app\llms_models\gpt2'.
+2025-08-27 11:02:42,610 - app.services.startup_service - INFO -  Démarrage de l'initialisation des services...
+2025-08-27 11:02:42,611 - app.services.startup_service - INFO -  Chargement du modèle LLM local...
+2025-08-27 11:02:42,614 - app.services.implementations.local_llm_service - ERROR - Erreur lors du chargement du modèle: Le répertoire du modèle n'existe pas: C:\Users\HP\Documents\INDIA-2\stage-repo\ChatBot-RAG\chat-backend\app\llms_models\gpt2
+2025-08-27 11:02:42,616 - app.services.startup_service - ERROR -  Erreur lors de l'initialisation des services: Impossible de charger le modèle: Le répertoire du modèle n'existe pas: C:\Users\HP\Documents\INDIA-2\stage-repo\ChatBot-RAG\chat-backend\app\llms_models\gpt2
+2025-08-27 11:19:40,578 - app.services.startup_service - INFO -  Démarrage de l'initialisation des services...
+2025-08-27 11:19:40,579 - app.services.startup_service - INFO -  Chargement du modèle LLM local...
+2025-08-27 11:19:40,581 - app.services.implementations.local_llm_service - INFO - Chargement du modèle depuis Hugging Face Hub: gpt2
+2025-08-27 11:19:40,583 - app.services.implementations.local_llm_service - INFO - Device demandé: cpu | GPU disponible: False
+2025-08-27 11:19:40,583 - app.services.implementations.local_llm_service - INFO - Chargement du tokenizer...
+2025-08-27 11:19:41,455 - app.services.implementations.local_llm_service - INFO - Chargement du modèle...
+2025-08-27 11:19:41,457 - app.services.implementations.local_llm_service - INFO - Utilisation du CPU
+2025-08-27 11:19:42,232 - app.services.implementations.local_llm_service - INFO - Modèle et pipeline chargés avec succès depuis Hugging Face Hub !
+2025-08-27 11:19:42,232 - app.services.startup_service - INFO -  Modèle LLM chargé avec succès
+2025-08-27 11:19:42,233 - app.services.startup_service - ERROR -  Erreur lors de l'initialisation des services: 'model_path'
+2025-08-27 11:22:24,122 - app.services.startup_service - INFO -  Démarrage de l'initialisation des services...
+2025-08-27 11:22:24,123 - app.services.startup_service - INFO -  Chargement du modèle LLM local...
+2025-08-27 11:22:24,123 - app.services.implementations.local_llm_service - INFO - Chargement du modèle depuis Hugging Face Hub: gpt2
+2025-08-27 11:22:24,126 - app.services.implementations.local_llm_service - INFO - Device demandé: cpu | GPU disponible: False
+2025-08-27 11:22:24,127 - app.services.implementations.local_llm_service - INFO - Chargement du tokenizer...
+2025-08-27 11:22:24,950 - app.services.implementations.local_llm_service - INFO - Chargement du modèle...
+2025-08-27 11:22:24,952 - app.services.implementations.local_llm_service - INFO - Utilisation du CPU
+2025-08-27 11:22:25,662 - app.services.implementations.local_llm_service - INFO - Modèle et pipeline chargés avec succès depuis Hugging Face Hub !
+2025-08-27 11:22:25,663 - app.services.startup_service - INFO -  Modèle LLM chargé avec succès
+2025-08-27 11:22:25,664 - app.services.startup_service - ERROR -  Erreur lors de l'initialisation des services: 'model_path'
+2025-08-27 11:23:28,820 - app.services.startup_service - INFO -  Démarrage de l'initialisation des services...
+2025-08-27 11:23:28,822 - app.services.startup_service - INFO -  Chargement du modèle LLM local...
+2025-08-27 11:23:28,823 - app.services.implementations.local_llm_service - INFO - Chargement du modèle depuis Hugging Face Hub: gpt2
+2025-08-27 11:23:28,823 - app.services.implementations.local_llm_service - INFO - Device demandé: cpu | GPU disponible: False
+2025-08-27 11:23:28,825 - app.services.implementations.local_llm_service - INFO - Chargement du tokenizer...
+2025-08-27 11:23:29,675 - app.services.implementations.local_llm_service - INFO - Chargement du modèle...
+2025-08-27 11:23:29,677 - app.services.implementations.local_llm_service - INFO - Utilisation du CPU
+2025-08-27 11:23:30,346 - app.services.implementations.local_llm_service - INFO - Modèle et pipeline chargés avec succès depuis Hugging Face Hub !
+2025-08-27 11:23:30,347 - app.services.startup_service - INFO -  Modèle LLM chargé avec succès
+2025-08-27 11:23:30,347 - app.services.startup_service - INFO -    - Modèle: gpt2
+2025-08-27 11:23:30,348 - app.services.startup_service - INFO -    - Device: cpu
+2025-08-27 11:25:40,517 - app.services.startup_service - INFO -  Démarrage de l'initialisation des services...
+2025-08-27 11:25:40,519 - app.services.startup_service - INFO -  Chargement du modèle LLM local...
+2025-08-27 11:25:40,520 - app.services.implementations.local_llm_service - INFO - Chargement du modèle depuis Hugging Face Hub: gpt2
+2025-08-27 11:25:40,521 - app.services.implementations.local_llm_service - INFO - Device demandé: cpu | GPU disponible: False
+2025-08-27 11:25:40,522 - app.services.implementations.local_llm_service - INFO - Chargement du tokenizer...
+2025-08-27 11:25:41,274 - app.services.implementations.local_llm_service - INFO - Chargement du modèle...
+2025-08-27 11:25:41,274 - app.services.implementations.local_llm_service - INFO - Utilisation du CPU
+2025-08-27 11:25:41,945 - app.services.implementations.local_llm_service - INFO - Modèle et pipeline chargés avec succès depuis Hugging Face Hub !
+2025-08-27 11:25:41,945 - app.services.startup_service - INFO -  Modèle LLM chargé avec succès
+2025-08-27 11:25:41,946 - app.services.startup_service - INFO -    - Modèle: gpt2
+2025-08-27 11:25:41,946 - app.services.startup_service - INFO -    - Device: cpu
+2025-08-27 11:25:41,946 - app.services.startup_service - INFO - Initialisation des services terminée avec succès!
+2025-08-27 11:27:30,850 - app.main - INFO - Initialisation des services...
+2025-08-27 11:27:30,850 - app.services.startup_service - INFO -  Démarrage de l'initialisation des services...
+2025-08-27 11:27:30,851 - app.services.startup_service - INFO -  Chargement du modèle LLM local...
+2025-08-27 11:27:30,853 - app.services.implementations.local_llm_service - INFO - Chargement du modèle depuis Hugging Face Hub: gpt2
+2025-08-27 11:27:30,854 - app.services.implementations.local_llm_service - INFO - Device demandé: cpu | GPU disponible: False
+2025-08-27 11:27:30,855 - app.services.implementations.local_llm_service - INFO - Chargement du tokenizer...
+2025-08-27 11:27:31,606 - app.services.implementations.local_llm_service - INFO - Chargement du modèle...
+2025-08-27 11:27:31,607 - app.services.implementations.local_llm_service - INFO - Utilisation du CPU
+2025-08-27 11:27:32,306 - app.services.implementations.local_llm_service - INFO - Modèle et pipeline chargés avec succès depuis Hugging Face Hub !
+2025-08-27 11:27:32,307 - app.services.startup_service - INFO -  Modèle LLM chargé avec succès
+2025-08-27 11:27:32,309 - app.services.startup_service - INFO -    - Modèle: gpt2
+2025-08-27 11:27:32,309 - app.services.startup_service - INFO -    - Device: cpu
+2025-08-27 11:27:32,310 - app.services.startup_service - INFO - Initialisation des services terminée avec succès!
+2025-08-27 11:29:05,343 - app.main - INFO - Arrêt de l'application, libération des ressources...
+2025-08-27 11:30:06,224 - app.main - INFO - Initialisation des services...
+2025-08-27 11:30:06,227 - app.services.startup_service - INFO - Démarrage de l'initialisation des services...
+2025-08-27 11:30:06,229 - app.services.startup_service - INFO - Chargement du modèle LLM local...
+2025-08-27 11:30:06,230 - app.services.implementations.local_llm_service - INFO - Chargement du modèle depuis Hugging Face Hub: gpt2
+2025-08-27 11:30:06,232 - app.services.implementations.local_llm_service - INFO - Device demandé: cpu | GPU disponible: False
+2025-08-27 11:30:06,234 - app.services.implementations.local_llm_service - INFO - Chargement du tokenizer...
+2025-08-27 11:30:07,090 - app.services.implementations.local_llm_service - INFO - Chargement du modèle...
+2025-08-27 11:30:07,091 - app.services.implementations.local_llm_service - INFO - Utilisation du CPU
+2025-08-27 11:30:07,805 - app.services.implementations.local_llm_service - INFO - Modèle et pipeline chargés avec succès depuis Hugging Face Hub !
+2025-08-27 11:30:07,806 - app.services.startup_service - INFO - Modèle LLM chargé avec succès
+2025-08-27 11:30:07,806 - app.services.startup_service - INFO -    - Modèle: gpt2
+2025-08-27 11:30:07,808 - app.services.startup_service - INFO -    - Device: cpu
+2025-08-27 11:30:07,808 - app.services.startup_service - INFO - Initialisation des services terminée avec succès !
+2025-08-27 11:31:46,551 - app.main - INFO - Arrêt de l'application, libération des ressources...
+2025-08-27 11:32:29,766 - app.main - INFO - Initialisation des services...
+2025-08-27 11:32:29,768 - app.services.startup_service - INFO - DÃ©marrage de l'initialisation des services...
+2025-08-27 11:32:29,770 - app.services.startup_service - INFO - Chargement du modÃ¨le LLM local...
+2025-08-27 11:32:29,772 - app.services.implementations.local_llm_service - INFO - Chargement du modÃ¨le depuis Hugging Face Hub: gpt2
+2025-08-27 11:32:29,774 - app.services.implementations.local_llm_service - INFO - Device demandÃ©: cpu | GPU disponible: False
+2025-08-27 11:32:29,777 - app.services.implementations.local_llm_service - INFO - Chargement du tokenizer...
+2025-08-27 11:32:30,474 - app.services.implementations.local_llm_service - INFO - Chargement du modÃ¨le...
+2025-08-27 11:32:30,475 - app.services.implementations.local_llm_service - INFO - Utilisation du CPU
+2025-08-27 11:32:31,163 - app.services.implementations.local_llm_service - INFO - ModÃ¨le et pipeline chargÃ©s avec succÃ¨s depuis Hugging Face Hub !
+2025-08-27 11:32:31,165 - app.services.startup_service - INFO - ModÃ¨le LLM chargÃ© avec succÃ¨s
+2025-08-27 11:32:31,165 - app.services.startup_service - INFO -    - ModÃ¨le: gpt2
+2025-08-27 11:32:31,165 - app.services.startup_service - INFO -    - Device: cpu
+2025-08-27 11:32:31,165 - app.services.startup_service - INFO - Initialisation des services terminÃ©e avec succÃ¨s !
+2025-08-27 11:32:31,166 - app.main - INFO - âœ… Services prÃªts !
+2025-08-27 11:33:27,861 - app.main - INFO - ArrÃªt de l'application, libÃ©ration des ressources...
+2025-08-27 11:34:28,906 - app.main - INFO - Initialisation des services...
+2025-08-27 11:34:28,908 - app.services.startup_service - INFO - DÃ©marrage de l'initialisation des services...
+2025-08-27 11:34:28,910 - app.services.startup_service - INFO - Chargement du modÃ¨le LLM local...
+2025-08-27 11:34:28,910 - app.services.implementations.local_llm_service - INFO - Chargement du modÃ¨le depuis Hugging Face Hub: gpt2
+2025-08-27 11:34:28,911 - app.services.implementations.local_llm_service - INFO - Device demandÃ©: cpu | GPU disponible: False
+2025-08-27 11:34:28,911 - app.services.implementations.local_llm_service - INFO - Chargement du tokenizer...
+2025-08-27 11:34:29,631 - app.services.implementations.local_llm_service - INFO - Chargement du modÃ¨le...
+2025-08-27 11:34:29,632 - app.services.implementations.local_llm_service - INFO - Utilisation du CPU
+2025-08-27 11:34:30,275 - app.services.implementations.local_llm_service - INFO - ModÃ¨le et pipeline chargÃ©s avec succÃ¨s depuis Hugging Face Hub !
+2025-08-27 11:34:30,277 - app.services.startup_service - INFO - ModÃ¨le LLM chargÃ© avec succÃ¨s
+2025-08-27 11:34:30,278 - app.services.startup_service - INFO -    - ModÃ¨le: gpt2
+2025-08-27 11:34:30,279 - app.services.startup_service - INFO -    - Device: cpu
+2025-08-27 11:34:30,279 - app.services.startup_service - INFO - Initialisation des services terminÃ©e avec succÃ¨s !
+2025-08-27 11:34:30,280 - app.main - INFO - âœ… Services prÃªts !
+2025-08-27 11:35:15,317 - app.main - INFO - ArrÃªt de l'application, libÃ©ration des ressources...
+2025-08-27 11:39:18,902 - app.main - INFO - Initialisation des services...
+2025-08-27 11:39:18,904 - app.services.startup_service - INFO - DÃ©marrage de l'initialisation des services...
+2025-08-27 11:39:18,905 - app.services.startup_service - INFO - Chargement du modÃ¨le LLM local...
+2025-08-27 11:39:18,907 - app.services.implementations.local_llm_service - INFO - Chargement du modÃ¨le depuis Hugging Face Hub: gpt2
+2025-08-27 11:39:18,908 - app.services.implementations.local_llm_service - INFO - Device demandÃ©: cpu | GPU disponible: False
+2025-08-27 11:39:18,909 - app.services.implementations.local_llm_service - INFO - Chargement du tokenizer...
+2025-08-27 11:39:19,975 - app.services.implementations.local_llm_service - INFO - Chargement du modÃ¨le...
+2025-08-27 11:39:19,976 - app.services.implementations.local_llm_service - INFO - Utilisation du CPU
+2025-08-27 11:39:21,016 - app.services.implementations.local_llm_service - INFO - ModÃ¨le et pipeline chargÃ©s avec succÃ¨s depuis Hugging Face Hub !
+2025-08-27 11:39:21,017 - app.services.startup_service - INFO - ModÃ¨le LLM chargÃ© avec succÃ¨s
+2025-08-27 11:39:21,017 - app.services.startup_service - INFO -    - ModÃ¨le: gpt2
+2025-08-27 11:39:21,018 - app.services.startup_service - INFO -    - Device: cpu
+2025-08-27 11:39:21,019 - app.services.startup_service - INFO - Initialisation des services terminÃ©e avec succÃ¨s !
+2025-08-27 11:39:21,019 - app.main - INFO - âœ… Services prÃªts !
+2025-08-27 11:41:09,475 - app.api.routes.query - INFO - RequÃªte RAG: 'comment saisir un devis ?...'
+2025-08-27 11:41:09,705 - app.persistence.qdrant.vector_repository - INFO - Starting semantic_search_with_expansion(top_k=5, filter=None)
+2025-08-27 11:41:09,754 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-27 11:41:09,804 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-27 11:41:09,818 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-27 11:41:09,820 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=cf91567b-c223-52ac-9dfd-4952e048468a at index=1
+2025-08-27 11:41:09,855 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-27 11:41:09,857 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=0a2d11e9-322c-5563-b901-eec96138fb69 at index=12
+2025-08-27 11:41:09,872 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-27 11:41:09,874 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=35bd60f2-2833-5e2e-960e-7675f8d803e0 at index=14
+2025-08-27 11:41:09,890 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-27 11:41:09,917 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-27 11:41:09,919 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=38ea8204-7d9d-5ea2-adb5-7a7f664bf0b5 at index=3
+2025-08-27 11:41:09,932 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-27 11:41:09,947 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-27 11:41:09,949 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=5ad3e9e1-6ac6-5efa-9229-c61cfecff031 at index=15
+2025-08-27 11:41:09,962 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-27 11:41:09,964 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=3876a0a6-d9f8-57c6-bfc7-28c1f6fcfed2 at index=9
+2025-08-27 11:41:09,993 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-27 11:41:09,996 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=47511cbf-7644-5287-b3f0-c387cedfeb07 at index=11
+2025-08-27 11:41:09,998 - app.persistence.qdrant.vector_repository - INFO - Expansion complete: total results = 12
+2025-08-27 11:41:10,228 - app.services.implementations.local_llm_service - ERROR - Erreur lors de l'infÃ©rence LLM: index out of range in self
+2025-08-27 11:41:53,247 - app.api.routes.auth - INFO - Tentative de connexion pour: othmane
+2025-08-27 11:41:53,248 - app.services.implementations.admin_service - INFO - Tentative de connexion pour l'utilisateur: othmane
+2025-08-27 11:41:53,305 - app.services.implementations.admin_service - INFO - Utilisateur trouvÃ©: othmane
+2025-08-27 11:41:53,934 - app.services.implementations.admin_service - INFO - Authentification rÃ©ussie pour: othmane
+2025-08-27 11:41:53,991 - app.api.routes.auth - INFO - Connexion rÃ©ussie pour: othmane
+2025-08-27 11:42:02,311 - app.api.routes.document - INFO - Suppression du document 06e38877169d3cf516a9a75f17bc404674834599027c14795e3504a673b046c2
+2025-08-27 11:42:02,330 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/delete?wait=true "HTTP/1.1 200 OK"
+2025-08-27 11:42:02,344 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/scroll "HTTP/1.1 200 OK"
+2025-08-27 11:42:12,636 - app.api.routes.document - INFO - Upload du fichier 'SNRT-JDE-MUT-DPO-V1.0.pdf'
+2025-08-27 11:42:13,210 - pypdf._reader - WARNING - Ignoring wrong pointing object 21 0 (offset 0)
+2025-08-27 11:42:13,211 - pypdf._reader - WARNING - Ignoring wrong pointing object 31 0 (offset 0)
+2025-08-27 11:42:40,870 - httpx - INFO - HTTP Request: PUT http://localhost:6333/collections/documents/points?wait=true "HTTP/1.1 200 OK"
+2025-08-27 11:42:40,875 - app.api.routes.document - INFO - Fichier 'SNRT-JDE-MUT-DPO-V1.0.pdf' traitÃ© en 28.24s
+2025-08-27 11:42:51,249 - app.api.routes.query - INFO - RequÃªte RAG: 'hello...'
+2025-08-27 11:42:51,273 - app.persistence.qdrant.vector_repository - INFO - Starting semantic_search_with_expansion(top_k=5, filter=None)
+2025-08-27 11:42:51,292 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-27 11:42:51,299 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-27 11:42:51,300 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=132664da-7618-5f20-9d4a-88e1f849ac8e at index=13
+2025-08-27 11:42:51,306 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-27 11:42:51,307 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=5ad3e9e1-6ac6-5efa-9229-c61cfecff031 at index=15
+2025-08-27 11:42:51,315 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-27 11:42:51,322 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-27 11:42:51,331 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-27 11:42:51,332 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=a4dc30d4-9c08-5afc-9fe6-a5202b204541 at index=2
+2025-08-27 11:42:51,342 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-27 11:42:51,343 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=beee6ef1-06a7-5b98-ada5-b6ceb3b4a7b5 at index=4
+2025-08-27 11:42:51,350 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-27 11:42:51,352 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=ab7836a2-bc7a-5d33-975f-110ca24917aa at index=5
+2025-08-27 11:42:51,362 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-27 11:42:51,364 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=5ca969e6-8567-5f99-9e0c-5a8b69d57ff5 at index=7
+2025-08-27 11:42:51,388 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-27 11:42:51,396 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-27 11:42:51,397 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=cf91567b-c223-52ac-9dfd-4952e048468a at index=1
+2025-08-27 11:42:51,398 - app.persistence.qdrant.vector_repository - INFO - Expansion complete: total results = 12
+2025-08-27 11:42:51,483 - app.services.implementations.local_llm_service - ERROR - Erreur lors de l'infÃ©rence LLM: index out of range in self
+2025-08-27 11:45:05,149 - app.api.routes.query - INFO - RequÃªte RAG: 'comment saisir un devis?...'
+2025-08-27 11:45:05,175 - app.persistence.qdrant.vector_repository - INFO - Starting semantic_search_with_expansion(top_k=1, filter=None)
+2025-08-27 11:45:05,182 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-27 11:45:05,214 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-27 11:45:05,221 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/documents/points/search "HTTP/1.1 200 OK"
+2025-08-27 11:45:05,224 - app.persistence.qdrant.vector_repository - INFO - Added neighbor id=cf91567b-c223-52ac-9dfd-4952e048468a at index=1
+2025-08-27 11:45:05,226 - app.persistence.qdrant.vector_repository - INFO - Expansion complete: total results = 2
+2025-08-27 11:45:05,233 - app.services.implementations.local_llm_service - ERROR - Erreur lors de l'infÃ©rence LLM: index out of range in self
+2025-08-27 11:48:13,734 - app.main - INFO - ArrÃªt de l'application, libÃ©ration des ressources...
