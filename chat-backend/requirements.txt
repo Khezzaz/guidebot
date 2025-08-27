@@ -6,3 +6,8 @@ langchain
 huggingface-hub
 python-multipart
 PyPDF2
+qdrant-client
+pymongo
+bcrypt
+python-jose
+pydantic
