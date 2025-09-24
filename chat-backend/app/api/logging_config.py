@@ -6,11 +6,10 @@ from pathlib import Path
 def setup_api_logging():
     """Configure le logging pour toute l'API"""
     
-    # Créer le dossier de logs s'il n'existe pas
     log_dir = Path("logs")
     log_dir.mkdir(exist_ok=True)
     
-    # Format des logs
+    # Configuration du format
     log_format = logging.Formatter(
         '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
     )
@@ -19,27 +18,25 @@ def setup_api_logging():
     logger = logging.getLogger()
     logger.setLevel(logging.INFO)
     
-    # Handler console (UTF-8)
+    # Handler pour la console
     console_handler = logging.StreamHandler(sys.stdout)
     console_handler.setLevel(logging.INFO)
     console_handler.setFormatter(log_format)
     
-    # Handler fichier avec rotation (UTF-8)
+    # Handler pour fichier avec rotation
     file_handler = RotatingFileHandler(
         log_dir / "api.log",
-        maxBytes=10*1024*1024,
-        backupCount=5,
-        encoding="utf-8"  # ⚡ important
+        maxBytes=10*1024*1024,  # 10MB
+        backupCount=5
     )
     file_handler.setLevel(logging.INFO)
     file_handler.setFormatter(log_format)
     
-    # Handler pour erreurs
+    # Handler pour les erreurs
     error_handler = RotatingFileHandler(
         log_dir / "errors.log",
         maxBytes=10*1024*1024,
-        backupCount=5,
-        encoding="utf-8"  # ⚡ important
+        backupCount=5
     )
     error_handler.setLevel(logging.ERROR)
     error_handler.setFormatter(log_format)
@@ -59,3 +56,4 @@ def setup_api_logging():
     fastapi_logger.addHandler(file_handler)
     
     return logger
+

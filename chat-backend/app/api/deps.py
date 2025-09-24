@@ -8,8 +8,8 @@ from app.services.application_facade import ApplicationFacade
 from app.services.implementations.admin_service import JwtAdminService
 from app.services.implementations.document_service import PdfDocumentService
 from app.services.implementations.document_service import QdrantVectorService
+from app.services.implementations.llm_service import MistralLlmService
 from app.services.implementations.pdf_processor import PdfProcessor
-from app.services.implementations.local_llm_service import LocalLlmService
 
 
 # Repositories
@@ -50,9 +50,9 @@ class ServiceFactory:
             self._vector_service = QdrantVectorService(self._vector_repo)
         return self._vector_service
     
-    def get_llm_service(self) -> LocalLlmService:
+    def get_llm_service(self) -> MistralLlmService:
         if self._llm_service is None:
-            self._llm_service = LocalLlmService()
+            self._llm_service = MistralLlmService()
         return self._llm_service
     
     def get_pdf_processor(self) -> PdfProcessor:

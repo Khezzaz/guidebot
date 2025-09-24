@@ -87,7 +87,7 @@ async def semantic_search(
         return SearchResult(
             results=retrieved_chunks,
             total_found=len(retrieved_chunks),
-            query_vector_dim=768  # Dimension par défaut des embeddings
+            query_vector_dim=768  # Dimension par défaut 
         )
         
     except Exception as e:
@@ -108,8 +108,6 @@ async def get_suggestions(
     Génère des suggestions de questions
     """
     try:
-        # Suggestions statiques pour l'exemple
-        # Vous pourriez implémenter une logique plus sophistiquée
         suggestions = [
             "Comment procéder à l'installation ?",
             "Quelles sont les étapes de configuration ?",
@@ -141,9 +139,8 @@ async def get_search_stats(
     Statistiques d'utilisation de la recherche
     """
     try:
-        # Exemple de statistiques - à implémenter selon vos besoins
         stats = {
-            "total_queries": 0,  # À récupérer depuis une base de données
+            "total_queries": 0,  
             "avg_processing_time": 0.0,
             "most_common_topics": [],
             "documents_indexed": len(services.get_all_documents())

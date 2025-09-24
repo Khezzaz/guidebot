@@ -86,6 +86,4 @@ class JwtAdminService(AdminInterface):
         return self.admin_repository.find_by_username(username)
     
     def validate_token(self, token: str) -> Optional[Dict]:
-        # Implémentation de la validation du token
-        # À implémenter selon votre logique de token
         pass
